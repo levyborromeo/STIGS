@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-This script ensures that Windows 10 is configured to prioritise ECC Curves with longer key lengths first.
+This script ensures that anonymous enumeration of shares is restricted.
 
 .NOTES
     Author          : Levy Borromeo
