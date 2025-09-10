@@ -20,7 +20,7 @@ This script ensures that Camera access from the lock screen is disabled.
     PowerShell Ver. : PowerShell Version: 5.1.19041.6328
 
 .USAGE
-    PS C:\> .\Remediation_WN10-CC-000005.ps1 
+    PS C:\> .\Remediation_WN10-CC-000005.ps1
 #>
 
 # Define registry path
@@ -45,4 +45,5 @@ if ($CameraExists) {
     Get-ItemProperty -Path $RegPath -Name "NoLockScreenCamera"
 } else {
     Write-Output "No camera detected. This setting is Not Applicable (NA)."
+
 }
