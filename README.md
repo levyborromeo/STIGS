@@ -9,3 +9,4 @@
 | WN10-AU-000081 | Windows 10 must be configured to audit Object Access - File Share failures. | [View Remediation](https://github.com/levyborromeo/STIGS/blob/c3743ad166f29b87514a5bbb5d5110f372b21b4b/Remediation_WN10-AU-000081.ps1) |
 | WN10-AU-000500 | The Application event log size must be configured to 32768 KB or greater. | [View Remediation](https://github.com/levyborromeo/STIGS/blob/c3743ad166f29b87514a5bbb5d5110f372b21b4b/Remediation_WN10-AU-000500.ps1) |
 | WN10-CC-000005 | Camera access from the lock screen must be disabled. | [View Remediation](https://github.com/levyborromeo/STIGS/blob/c3743ad166f29b87514a5bbb5d5110f372b21b4b/Remediation_WN10-CC-000005.ps1) |
+| WN10-CC-000010 | The display of slide shows on the lock screen must be disabled. | [View Remediation](https://github.com/levyborromeo/STIGS/blob/7784ac12c60768d18f284d02414429fbd070fd0c/Remediation_WN10-CC-000010.ps1) |
