@@ -1,13 +1,13 @@
 <#
 .SYNOPSIS
-This script ensures that the system must be configured to audit Account Management - User Account Management failures.
+This script ensures that Windows 10 is configured to audit Object Access - File Share failures.
 
 .NOTES
     Author          : Levy Borromeo
     LinkedIn        : linkedin.com/in/levyborromeo/
     GitHub          : github.com/levyborromeo
-    Date Created    : 2025-09-08
-    Last Modified   : 2025-09-08
+    Date Created    : 2025-09-10
+    Last Modified   : 2025-09-10
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
