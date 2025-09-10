@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-This script ensures that the convenience PIN for Windows 10 is disabled.
+This script ensures that audit policy using subcategories is enabled.
 
 .NOTES
     Author          : Levy Borromeo
