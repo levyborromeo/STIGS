@@ -11,7 +11,7 @@ This script ensures that the system must be configured to audit Account Manageme
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN10-00-000107
+    STIG-ID         : WN10-AU-000035
 
 .TESTED ON
     Date(s) Tested  : 2025-09-10
