@@ -20,7 +20,7 @@ This script ensures that the Application event log size is configured to 32768 K
     PowerShell Ver. : PowerShell Version: 5.1.19041.6328
 
 .USAGE
-    PS C:\> .\Remediation_WN10-AU-000500.ps1 
+    PS C:\> .\Remediation_WN10-AU-000500.ps1
 #>
 
 # Define registry path for Application Event Log Policy
@@ -38,4 +38,5 @@ Set-ItemProperty -Path $RegPath -Name "MaxSize" -Value 32768 -Type DWord
 gpupdate /force
 
 # Verify the configuration
+
 Get-ItemProperty -Path $RegPath -Name "MaxSize"
