@@ -20,7 +20,7 @@ This script ensures that the display of slide shows on the lock screen is disabl
     PowerShell Ver. : PowerShell Version: 5.1.19041.6328
 
 .USAGE
-    PS C:\> .\Remediation_WN10-CC-000010.ps1 
+    PS C:\> .\Remediation_WN10-CC-000010.ps1
 #>
 
 # Define the registry path and required values
@@ -49,5 +49,6 @@ if ($currentValue -ne $expectedValue) {
 # Verify the change
 $updatedValue = (Get-ItemProperty -Path $registryPath -Name $registryName -ErrorAction SilentlyContinue).$registryName
 Write-Host "Current policy value: $updatedValue (Expected: $expectedValue)"
+
 
 
