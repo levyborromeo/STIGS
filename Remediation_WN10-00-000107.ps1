@@ -14,7 +14,7 @@ This script disables Windows Copilot by modifying the Group Policy settings via 
     STIG-ID         : WN10-00-000107
 
 .TESTED ON
-    Date(s) Tested  : 2025-09-08
+    Date(s) Tested  : 2025-09-10
     Tested By       : Levy Borromeo
     Systems Tested  : Windows 10 Pro VM 
     PowerShell Ver. : PowerShell Version: 5.1.19041.6328
